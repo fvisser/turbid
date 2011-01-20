@@ -19,5 +19,6 @@
 
 (def transactions [])
 
-;;
+;; small change here to check if magit picks this up
+;; and allows me to commit this easily
 ;; (conj transactions (transaction/new-transaction 100.00                
