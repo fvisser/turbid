@@ -13,3 +13,13 @@
 
 (defn new-equity-account [name category]
   (Account. name "equity" category))
+
+(defn new-expense-account [name category]
+  (Account. name "expense" category))
+
+(defn new-income-account [name category]
+  (Account. name "income" category))
+
+(defn new-draw-account [name category]
+  (Account. name "draw" category))
+

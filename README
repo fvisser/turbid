@@ -1,6 +1,23 @@
 # turbid
 
-FIXME: write description
+Small accounting application. To rehearse, there are five types of account:
+asset (debit account)
+liability (credit account)
+expense (debit account)
+income (credit account)
+equity (credit account)
+
+Debit accounts increase their balance if a new value is added to the
+debit (left) side of the balance, credit accounts increase in value
+if the credit (right) is increased
+
+basic formula:
+
+
+Assets + Draws + Expenses = Liabilities + Owner's Equity + Revenue 
+
+assets - liabilities = equity + revenue - expense - draws
+
 
 ## Usage
 
